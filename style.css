@@ -1,0 +1,173 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+img { max-width: 100%; }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px whitesmoke;
+    height: 80px;
+    color: white;
+    padding: 0 100px;
+    background: white;
+}
+.button-siswa {
+    background-color: #e8c817;
+    color: black;
+    border: #e8c817;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    align-self: center;
+    cursor: pointer;
+}
+.button-tutor {
+    background-color:  #3d7a67;
+    color: white;
+    border: 1px solid #3d7a67;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    align-self: center;
+    cursor: pointer;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.dropdown {
+    background-color: white;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color:#ddd;}
+.responsive {
+    width: 50%;
+    height: auto;
+}
+h1, h3 {  color: #3d7a67 }
+h2 {
+    color: black;
+    margin: 20px 250px;
+}
+p { font-size: 16px }
+a { 
+    color: black;
+    font-size: 16px;
+}
+body { 
+    overflow: scroll;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.first-page {
+    background-image: url("C:/Users/asus/Desktop/codes/HEADER.jpg");
+    background size: 1060px 1060px;
+}
+.text {
+    color: white;
+    padding: 100px 500px 0px 200px;
+}
+.button-us {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px 400px 100px 400px;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    align-self: center;
+    cursor: pointer;
+}
+.form {
+    background-color: white;
+    color: black;
+    border: white solid outset;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px 30px;
+    align-self: center;
+}
+.form-group {
+    margin: 0 230px 10px 235px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+.button-find {
+    background-color: #e8c817;
+    color: black;
+    border: #e8c817;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px 30px;
+    align-self: center;
+    cursor: pointer;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 500px 0px 100px;
+}
+
+.border {
+    padding: 30px 400px;
+    background-color: #3d7a67;
+    color: white;
+    font-size: 48px;
+}
+.tutor {
+    margin: 20px 575px;
+}
+.blog {
+    margin: 20px 615px;
+}
+.blog-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.socmed {
+    background-color: #3d7a67;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
